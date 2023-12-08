@@ -1,0 +1,14 @@
+prefix=/opt/el7/pkgs/crkit/nightly/20180703/crkit/qt-5.6.2
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Help
+Description: Qt Help module
+Version: 5.6.2
+Libs: -L${libdir} -lQt5Help 
+Libs.private: -L/opt/el7/pkgs/crkit/nightly/20180703/crkit/qt-5.6.2/lib -lQt5Widgets -L/usr/X11R6/lib64 -lQt5Gui -lQt5Core -lpthread -lQt5Network -L/opt/el7/pkgs/crkit/nightly/20180703/crkit/qt-5.6.2/lib -lQt5Sql -L/opt/el7/pkgs/crkit/nightly/20180703/crkit/qt-5.6.2/lib -lQt5CLucene -lQt5Core -lpthread -lGL  
+Cflags: -I${includedir}/QtHelp -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

@@ -1,0 +1,14 @@
+prefix=/opt/el7/pkgs/crkit/nightly/20180703/crkit/qt-5.6.2
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 ScriptTools
+Description: Qt ScriptTools module
+Version: 5.6.2
+Libs: -L${libdir} -lQt5ScriptTools 
+Libs.private: -L/opt/el7/pkgs/crkit/nightly/20180703/crkit/qt-5.6.2/lib -lQt5Core -lpthread -lQt5Widgets -L/usr/X11R6/lib64 -L/opt/el7/pkgs/crkit/nightly/20180703/crkit/qt-5.6.2/lib -lQt5Gui -L/opt/el7/pkgs/crkit/nightly/20180703/crkit/qt-5.6.2/lib -lQt5Script -lQt5Core -lpthread -lGL  
+Cflags: -I${includedir}/QtScriptTools -I${includedir}
+Requires: Qt5Core
+

@@ -1,0 +1,15 @@
+prefix=/opt/el7/pkgs/crkit/nightly/20180703/crkit/qt-5.6.2
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+host_bins=${prefix}/bin
+qt_config=minimal-config small-config medium-config large-config full-config gtk2 gtkstyle fontconfig libudev evdev xlib xrender xcb-plugin xcb-qt xcb-glx xcb-xlib xcb-sm xkbcommon-qt accessibility-atspi-bridge linuxfb kms c++11 accessibility egl egl_x11 eglfs opengl shared qpa reduce_exports reduce_relocations clock-gettime clock-monotonic posix_fallocate mremap getaddrinfo ipv6ifname getifaddrs inotify eventfd threadsafe-cloexec system-jpeg system-png png system-freetype harfbuzz system-zlib cups iconv glib dbus dbus-linked openssl xcb xinput2 rpath alsa pulseaudio gstreamer-1.0 icu concurrent audio-backend release
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.6.2
+Libs: -L${libdir} -lQt5Core 
+Libs.private: -lpthread -lz -licui18n -licuuc -licudata -lpcre16 -lm -ldl -pthread -lgthread-2.0 -lglib-2.0 -lrt  
+Cflags: -I${includedir}/QtCore -I${includedir}
+

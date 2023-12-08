@@ -1,0 +1,36 @@
+concurrent_queue.o: \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./src/tbb/concurrent_queue.cpp \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/tbb_stddef.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/tbb_config.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/tbb_machine.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/tbb_stddef.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/machine/linux_intel64.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/machine/gcc_ia32_common.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/machine/gcc_itsx.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/machine/linux_common.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/tbb_exception.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/tbb_allocator.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/_concurrent_queue_impl.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../tbb_stddef.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../tbb_machine.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../atomic.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../tbb_machine.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../spin_mutex.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../aligned_space.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../tbb_stddef.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../tbb_profiling.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../internal/_tbb_strings.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../atomic.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../internal/_mutex_padding.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../internal/_x86_eliding_mutex_impl.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../cache_aligned_allocator.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../tbb_exception.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/internal/../tbb_profiling.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./src/tbb/concurrent_monitor.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/atomic.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/spin_mutex.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./include/tbb/aligned_space.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./src/tbb/semaphore.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./src/tbb/itt_notify.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./src/tbb/tools_api/ittnotify.h \
+ /opt/el7/pkgs/crkit/nightly/20180703/crkit/intel-tbb/intel-tbb/./src/tbb/tools_api/legacy/ittnotify.h
