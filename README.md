@@ -1,10 +1,10 @@
 # crkit20180703-docker
-docker pull prabhjotkaur1991/crkit:20180703_latest
+docker pull prabhjotkaur1991/crkit:20180703v2
 
 
 or 
 
-docker build --no-cache -t prabhjotkaur1991/crkit:20180703_latest
+docker build --no-cache -t prabhjotkaur1991/crkit:20180703v2
 
 
 
